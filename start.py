@@ -20,8 +20,7 @@ if __name__=="__main__":
     from huobi.utils import *
 
     account_client = AccountClient(api_key=api_key,
-                                   secret_key=secret_key,
-                                   url="https://api-aws.huobi.pro")
+                                   secret_key=secret_key)
 
     list_obj = account_client.get_accounts()
     #LogInfo.output_list(list_obj)
