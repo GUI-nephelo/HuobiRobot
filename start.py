@@ -23,4 +23,5 @@ if __name__=="__main__":
                                    secret_key=secret_key)
 
     list_obj = account_client.get_accounts()
+    print(list_obj)
     #LogInfo.output_list(list_obj)
