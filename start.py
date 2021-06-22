@@ -8,7 +8,7 @@ import socket,socks
 
 #import ssl
 #ssl._create_default_https_context = ssl._create_unverified_context
-
+n=1
 with open("./keys.json","r") as f:
     a=json.loads(f.read())
     (api_key, secret_key) = a[n]["accessKey"],a[n]["secretKey"]
